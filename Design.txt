@@ -1,0 +1,18 @@
+3.5 x 1.5 mm	1206
+2 x 1 mm	0805
+10 x 10 mm 	ind 6r8
+1.18 in x 0.86 (1.02) in
+
+TS34063CS	Output switch current up to 1.5A
+LTC1624		Peak Driver Output Current < 10µs (TG) ..... 2A
+LM5085		4.5-V to 75-V Input Voltage Range
+LM25085		4.5-V to 75-V Input Voltage Range
+tl5001		missing design equations
+
+Vin=34V
+Vout=12v
+Iout=2A max 3A
+
+RFB2/RFB1 = (VOUT/1.25V) - 1 
+RFB2= 80K6	RFB1= 9K372 = 270R + 9K1
+Selected PFET: SQ3419AEEV-T1_GE3 max vds = -40V
