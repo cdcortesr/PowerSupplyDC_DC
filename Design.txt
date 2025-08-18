@@ -16,3 +16,11 @@ Iout=2A max 3A
 RFB2/RFB1 = (VOUT/1.25V) - 1 
 RFB2= 80K6	RFB1= 9K372 = 270R + 9K1
 Selected PFET: SQ3419AEEV-T1_GE3 max vds = -40V
+
+the switching node area is kept to a reasonable minimum and the PFET peak current is derated to stay
+within the recommended temperature rating of the PFET. The RDS(ON) of the PFET determines a portion of the
+power dissipation in the PFET. However, PFETs with very low RDS(ON) usually have large values of gate charge.
+A PFET with a higher gate charge has a corresponding slower switching speed, leading to higher switching
+losses and affecting the PFET power dissipation.
+
+Input operating current=1.25mA @ Vin=34V and =1.3mA @ Vin=40V
