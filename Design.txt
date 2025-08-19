@@ -24,7 +24,6 @@ power dissipation in the PFET. However, PFETs with very low RDS(ON) usually have
 A PFET with a higher gate charge has a corresponding slower switching speed, leading to higher switching
 losses and affecting the PFET power dissipation.
 
-Input operating current=1.25mA @ Vin=34V and =1.3mA @ Vin=40VInput operating current=1.25mA @ Vin=34V and =1.3mA @ Vin=40V
 Input operating current=1.25mA @ Vin=34V and =1.3mA @ Vin=40V
 =======
 Diode: MM3Z20VT1G
