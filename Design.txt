@@ -26,7 +26,10 @@ losses and affecting the PFET power dissipation.
 
 Input operating current=1.25mA @ Vin=34V and =1.3mA @ Vin=40V
 =======
-Diode: MM3Z20VT1G
+Diode: MM3Z20VT1G better to use shottky: SK810L-TP
+
 PMOS: SQ3419AEEV
+
+
 
 
