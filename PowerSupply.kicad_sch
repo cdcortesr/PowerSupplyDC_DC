@@ -311,7 +311,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Si7461DP"
+			(property "Value" "LM25085"
 				(at 6.35 1.2699 0)
 				(effects
 					(font
@@ -534,7 +534,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,7 +552,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,7 +570,64 @@
 							)
 						)
 					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1252,12 +1309,6 @@
 		(uuid "23d673b3-4b49-46c0-bf75-60e59c946a76")
 	)
 	(junction
-		(at 198.12 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "272fc770-d60c-4708-9b31-7fdb34561a6b")
-	)
-	(junction
 		(at 120.65 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1306,12 +1357,6 @@
 		(uuid "dd3af608-1556-4184-b0c6-a50bc4276b74")
 	)
 	(junction
-		(at 180.34 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecd47d8a-7d37-45f8-a973-03f22a309640")
-	)
-	(junction
 		(at 113.03 66.675)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1328,18 +1373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ac298b-bfbb-41ab-830b-78de65a18f44")
-	)
-	(junction
-		(at 186.69 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5ca187e-071f-46d6-8889-d4ef40b04c4a")
-	)
-	(junction
-		(at 186.69 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcbab5c5-ad5f-41b0-83ba-1d052c93dc2c")
 	)
 	(wire
 		(pts
@@ -1443,16 +1476,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 106.68) (xy 198.12 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7124a7-e9c6-48ae-b718-7862d6705aba")
-	)
-	(wire
-		(pts
 			(xy 120.65 83.82) (xy 120.65 66.675)
 		)
 		(stroke
@@ -1550,16 +1573,6 @@
 			(type default)
 		)
 		(uuid "4d042c83-04e2-463e-838c-e88a33b165d8")
-	)
-	(wire
-		(pts
-			(xy 198.12 106.68) (xy 198.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f80632-0a2f-4bff-9b0a-d3f29b7820f0")
 	)
 	(wire
 		(pts
@@ -1693,26 +1706,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 130.81) (xy 186.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b1de8a-f211-454b-9251-72da4a8a2ffe")
-	)
-	(wire
-		(pts
-			(xy 186.69 130.81) (xy 180.34 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79536a65-2d17-4b4a-82e8-8dc7cb6882a9")
-	)
-	(wire
-		(pts
 			(xy 68.58 86.36) (xy 68.58 88.9)
 		)
 		(stroke
@@ -1763,16 +1756,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 106.68) (xy 205.74 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a610a94-ffd8-450a-adbe-2d5cdd1fbe35")
-	)
-	(wire
-		(pts
 			(xy 106.68 100.33) (xy 113.03 100.33)
 		)
 		(stroke
@@ -1793,16 +1776,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 110.49) (xy 186.69 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e764c4d-eced-4366-946d-565ff3d95605")
-	)
-	(wire
-		(pts
 			(xy 132.08 124.46) (xy 95.25 124.46)
 		)
 		(stroke
@@ -1810,16 +1783,6 @@
 			(type default)
 		)
 		(uuid "9f9ebe8a-a329-4ac5-b34f-90ec4f80586e")
-	)
-	(wire
-		(pts
-			(xy 186.69 118.11) (xy 186.69 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a03606bc-d89f-444a-856c-aa1b3453e207")
 	)
 	(wire
 		(pts
@@ -1893,17 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 118.11) (xy 198.12 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b85829-d6fe-4b17-aca4-eaa162a0b179")
-	)
-	(wire
-		(pts
-			(xy 175.26 106.68) (xy 186.69 106.68)
+			(xy 175.26 106.68) (xy 205.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2274,7 +2227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Si7461DP"
+		(property "Value" "LM25085"
 			(at 124.46 99.0601 0)
 			(effects
 				(font
@@ -2283,7 +2236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -2313,11 +2266,20 @@
 		(pin "1"
 			(uuid "13292a60-2c49-47b7-9468-ebf1a36b7873")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "ca524525-3b39-4a09-ab56-7483f8a64579")
 		)
 		(pin "3"
 			(uuid "91b5721c-d279-41c8-8f7e-fa3f05f64b07")
+		)
+		(pin "5"
+			(uuid "b562d109-fb3d-4f4b-bc82-f27fee4a6b65")
+		)
+		(pin "2"
+			(uuid "46819d20-3b49-4152-b74a-db67d2f52290")
+		)
+		(pin "6"
+			(uuid "6a9deffd-e33d-4912-bcb8-e7ea79e64ded")
 		)
 		(instances
 			(project ""
@@ -2346,7 +2308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 61.595 85.0899 0)
 			(effects
 				(font
@@ -2415,7 +2377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "255K"
+		(property "Value" "63k4"
 			(at 71.12 83.8199 0)
 			(effects
 				(font
@@ -2554,76 +2516,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 186.69 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49c92ef3-75f0-4e2d-ad70-285a67fb9d91")
-		(property "Reference" "C5"
-			(at 190.5 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 190.5 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
-			(at 187.6552 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83370bab-06d8-4623-b461-cb77420a9763")
-		)
-		(pin "2"
-			(uuid "c349cfac-6fd8-4905-8b32-0cba0b303fde")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 101.6 0)
 		(unit 1)
@@ -2717,7 +2609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 176.2252 118.11 0)
 			(effects
 				(font
@@ -2778,7 +2670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9K1"
+		(property "Value" "1k15"
 			(at 167.64 126.9999 0)
 			(effects
 				(font
@@ -2982,7 +2874,7 @@
 				)
 			)
 		)
-		(property "Value" "15uF"
+		(property "Value" "6.2uF"
 			(at 145.415 104.14 0)
 			(effects
 				(font
@@ -2990,7 +2882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL1010-XXX"
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRU1028_10.0x10.0mm"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -3008,7 +2900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16.9mOhm"
+		(property "Description" "SRU1038-6R2Y"
 			(at 147.828 107.95 0)
 			(effects
 				(font
@@ -3048,7 +2940,7 @@
 				)
 			)
 		)
-		(property "Value" "2k210"
+		(property "Value" "1k430"
 			(at 113.03 81.915 90)
 			(effects
 				(font
@@ -3093,76 +2985,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 198.12 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfcf7359-621e-4899-9c19-9add1b1e14e6")
-		(property "Reference" "C6"
-			(at 201.93 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 201.93 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
-			(at 199.0852 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c7ea54a-6f92-40ee-87d5-187ba1e713d3")
-		)
-		(pin "2"
-			(uuid "9293e095-2a96-4658-8922-efbd5a27719c")
-		)
-		(instances
-			(project "PowerSupply"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3264,7 +3086,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -3282,7 +3104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SK810L-TP"
+		(property "Description" "STPS5L60"
 			(at 128.778 117.094 90)
 			(effects
 				(font
