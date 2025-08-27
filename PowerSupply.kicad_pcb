@@ -81,6 +81,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(grid_origin 102.35 96.95)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2404,13 +2405,13 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e03a7b04-3d84-4dd3-a542-ae4106578eb7")
-		(at 100.0625 91 180)
+		(at 99.4125 91.1 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
 			(at 0 -2.3 0)
 			(layer "F.SilkS")
-			(uuid "1db20770-edd7-44aa-82c7-68d00927ce99")
+			(uuid "939acf75-a61b-46ca-a42d-5a289852424a")
 			(effects
 				(font
 					(size 1 1)
@@ -2421,7 +2422,7 @@
 		(property "Value" "1uF"
 			(at 0 2.3 0)
 			(layer "F.Fab")
-			(uuid "bc4b079e-6ec2-499d-b657-bfa0cad9a3ee")
+			(uuid "6d4ef585-fe14-4463-9d23-22f99e104b47")
 			(effects
 				(font
 					(size 1 1)
@@ -2433,7 +2434,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9614a6fb-dc3e-4e98-b75c-8d3ab22bf375")
+			(uuid "cfb1d2ec-2c4f-4ad5-b4ba-5d89452500e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2446,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b53c2b95-7fd9-4c66-af3f-95e03aa9190f")
+			(uuid "3ad22bc8-a62d-457a-8aa8-016e29c2dea4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,20 +3120,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 100.4 96.765195) (xy 100.4 92.355195) (xy 102.65 92.355195) (xy 102.65 96.765195)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "89300c13-d5d2-4b48-ade6-6b4c21929306")
-	)
-	(gr_poly
-		(pts
-			(xy 87.25 96.78) (xy 87.25 92.5) (xy 90.77 92.5) (xy 90.77 96.78)
+			(xy 87.35 96.68) (xy 87.35 92.5) (xy 90.77 92.5) (xy 90.77 96.68)
 		)
 		(stroke
 			(width 0)
@@ -3145,8 +3133,9 @@
 	)
 	(gr_poly
 		(pts
-			(xy 109.5 81.5) (xy 109.5 76) (xy 107.65 76) (xy 107.5 76.2) (xy 107.5 76.8) (xy 107.95 77.35) (xy 107.95 79.95)
-			(xy 107.5 80.35) (xy 106.1 80.35) (xy 105.75 80.75) (xy 105.9 81) (xy 107.95 81) (xy 108 81.5)
+			(xy 109.5 81.5) (xy 109.5 76) (xy 107.73 76) (xy 107.73 76) (xy 107.73 77.081112) (xy 107.95 77.35)
+			(xy 107.95 79.95) (xy 107.5 80.35) (xy 106.1 80.35) (xy 105.75 80.75) (xy 105.9 81) (xy 107.95 81)
+			(xy 108 81.5)
 		)
 		(stroke
 			(width 0.2)
@@ -3159,7 +3148,20 @@
 	)
 	(gr_poly
 		(pts
-			(xy 98.6416 96.78) (xy 98.6416 85.58) (xy 91.86 85.58) (xy 91.86 96.78)
+			(xy 102.8 96.8) (xy 102.8 92.1) (xy 100.35 92.1) (xy 100.35 96.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "962c0845-b739-4a84-b984-55ff25764f9e")
+	)
+	(gr_poly
+		(pts
+			(xy 98.6416 96.68) (xy 98.6416 85.58) (xy 91.86 85.58) (xy 91.86 96.68)
 		)
 		(stroke
 			(width 0)
@@ -3172,8 +3174,8 @@
 	)
 	(gr_poly
 		(pts
-			(xy 100.5 92.5) (xy 100.5 87) (xy 107 87.05) (xy 108 86) (xy 108 81.5) (xy 109.5 81.5) (xy 109.5 88.5)
-			(xy 107 90.5) (xy 103.5 90.5) (xy 103 91) (xy 103 92.5)
+			(xy 100.43 92.25) (xy 100.44 87) (xy 106.94 87.05) (xy 107.94 86) (xy 107.94 81.5) (xy 109.44 81.5)
+			(xy 109.44 88.5) (xy 106.94 90.5) (xy 105.03 90.5) (xy 102.6 92.25)
 		)
 		(stroke
 			(width 0.2)
@@ -3223,7 +3225,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "B.SilkS")
+		(layer "User.1")
 		(uuid "07d59a27-899b-40c0-8430-eb62a826e88f")
 		(pts
 			(xy 91.86 95.49) (xy 98.64 95.45)
@@ -3248,7 +3250,7 @@
 		)
 		(gr_text "6.7800 mm"
 			(at 95.25 103 0)
-			(layer "B.SilkS")
+			(layer "User.1")
 			(uuid "07d59a27-899b-40c0-8430-eb62a826e88f")
 			(effects
 				(font
@@ -3261,7 +3263,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "B.SilkS")
+		(layer "User.1")
 		(uuid "0a690855-81a8-44c7-bf41-e36072fcc7ff")
 		(pts
 			(xy 87.25 96.45) (xy 90.77 96.45)
@@ -3286,7 +3288,7 @@
 		)
 		(gr_text "3.5200 mm"
 			(at 89.01 97.46 0)
-			(layer "B.SilkS")
+			(layer "User.1")
 			(uuid "0a690855-81a8-44c7-bf41-e36072fcc7ff")
 			(effects
 				(font
@@ -3299,7 +3301,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "B.SilkS")
+		(layer "User.1")
 		(uuid "4e4afae2-a90a-4170-aac1-dafe3cf0ecf7")
 		(pts
 			(xy 90.77 95.26) (xy 91.86 95.49)
@@ -3324,7 +3326,7 @@
 		)
 		(gr_text "1.0900 mm"
 			(at 91.315 100.03 0)
-			(layer "B.SilkS")
+			(layer "User.1")
 			(uuid "4e4afae2-a90a-4170-aac1-dafe3cf0ecf7")
 			(effects
 				(font
