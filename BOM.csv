@@ -1,14 +1,14 @@
 Reference,Value,Datasheet,Footprint,Qty,Description,
 C1,1uF,~,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,CL32B105KCJSNNE,1mOhm @ 1Mhz
-C2,1uF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,,
-C3,1nF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,,
-C4,10uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,,
+C2,1uF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,CL32B105KCJSNNE,
+C3,1nF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,GRM1555C1H102JA01D,
+C4,10uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,TCJA106M025R0150,
 D1,D_Schottky,~,Diode_SMD:D_SMB,1,STPS5L60,
 L01,6.2uF,~,Inductor_SMD:L_Bourns-SRU1028_10.0x10.0mm,1,SRU1038-6R2Y,
-Q1,LM25085,~,Package_SO:TSOP-6_1.65x3.05mm_P0.95mm,1,,
-R1,63k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,,
-R2,1k430,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,,
-R3,0R01,~,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,1/2W,
-R4,10k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,,
-R5,1k15,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,,
-U1,LM25085,,Package_SO:VSSOP-8_3x3mm_P0.65mm,1,,
+Q1,LM25085,~,Package_SO:TSOP-6_1.65x3.05mm_P0.95mm,1,HVSSOP,
+R1,63k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,RK73H2ATTD6342F,
+R2,1k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,RK73H2ATTD1401F,
+R3,0R01,~,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,HoJLR1206-1W-10mR-1%,1W
+R4,10k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,ERA-6VRW1002V,1/4 W
+R5,1k15,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,TAR05ATNP1151,1/5 W
+U1,SQ3419AEEV,,Package_SO:VSSOP-8_3x3mm_P0.65mm,1,SQ3419AEEV,

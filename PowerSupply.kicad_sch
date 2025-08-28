@@ -834,7 +834,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+			(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm_ThermalVias"
 				(at 0 10.795 0)
 				(effects
 					(font
@@ -853,7 +853,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "200mA Linear LDO Regulator, MicroPower, Fixed Output 3.0V, SO8/MSOP8"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -882,8 +882,8 @@
 			)
 			(symbol "LP2987-3.0_SOIC8_VSSOP8_0_1"
 				(rectangle
-					(start 7.62 -11.43)
-					(end -7.62 19.05)
+					(start -7.62 19.05)
+					(end 7.62 -11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -923,6 +923,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1309,6 +1327,12 @@
 		(uuid "23d673b3-4b49-46c0-bf75-60e59c946a76")
 	)
 	(junction
+		(at 82.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26f1239c-e994-4bfc-8470-34133974ce5b")
+	)
+	(junction
 		(at 120.65 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1486,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 96.52) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edfc1d1-da48-44c8-9287-4ed5a4227447")
+	)
+	(wire
+		(pts
 			(xy 57.785 77.47) (xy 57.785 80.01)
 		)
 		(stroke
@@ -1563,6 +1597,16 @@
 			(type default)
 		)
 		(uuid "4c258087-aed9-4072-839f-826b71a83743")
+	)
+	(wire
+		(pts
+			(xy 86.36 96.52) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdf185d-7a68-45c2-90d9-5a51cad184e4")
 	)
 	(wire
 		(pts
@@ -1983,7 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" "1W"
 			(at 122.936 92.456 0)
 			(effects
 				(font
@@ -2227,7 +2271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM25085"
+		(property "Value" "SQ3419AEEV"
 			(at 124.46 99.0601 0)
 			(effects
 				(font
@@ -2454,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm_ThermalVias"
 			(at 96.52 83.185 0)
 			(effects
 				(font
@@ -2505,6 +2549,9 @@
 		)
 		(pin "8"
 			(uuid "2cc2c226-f1f1-45fc-9c92-7cc5fe84b195")
+		)
+		(pin "9"
+			(uuid "7e657335-7392-4242-85a9-ca13d8270c4b")
 		)
 		(instances
 			(project ""
@@ -2940,7 +2987,7 @@
 				)
 			)
 		)
-		(property "Value" "1k430"
+		(property "Value" "1k4"
 			(at 113.03 81.915 90)
 			(effects
 				(font
