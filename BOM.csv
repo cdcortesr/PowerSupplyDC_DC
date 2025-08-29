@@ -1,14 +1,14 @@
-Reference,Value,Datasheet,Footprint,Qty,Description,
-C1,1uF,~,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,CL32B105KCJSNNE,1mOhm @ 1Mhz
-C2,1uF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,CL32B105KCJSNNE,
-C3,1nF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,GRM1555C1H102JA01D,
-C4,10uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,TCJA106M025R0150,
-D1,D_Schottky,~,Diode_SMD:D_SMB,1,STPS5L60,
-L01,6.2uF,~,Inductor_SMD:L_Bourns-SRU1028_10.0x10.0mm,1,SRU1038-6R2Y,
-Q1,LM25085,~,Package_SO:TSOP-6_1.65x3.05mm_P0.95mm,1,HVSSOP,
-R1,63k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,RK73H2ATTD6342F,
-R2,1k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,RK73H2ATTD1401F,
-R3,0R01,~,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,HoJLR1206-1W-10mR-1%,1W
-R4,10k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,ERA-6VRW1002V,1/4 W
-R5,1k15,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,TAR05ATNP1151,1/5 W
-U1,SQ3419AEEV,,Package_SO:VSSOP-8_3x3mm_P0.65mm,1,SQ3419AEEV,
+Reference,Value,Datasheet,Footprint,Qty,Mfr Part Number,Description
+C1,1uF,~,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,1,CL32B105KCJSNNE,1 µF ±10% 100V Ceramic Capacitor X7R 1210
+C2,1uF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,GRM155R61H105KE05D,1 µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)
+C3,1nF,~,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,GRM1555C1H102JA01D,"1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 "
+C4,10uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,TCJA106M025R0150,10 µF Molded Tantalum Polymer Capacitor 25 V 1206 
+D1,D_Schottky,~,Diode_SMD:D_SMC,1,SK86C,Diode 60 V 8A Surface Mount DO-214AB (SMC)
+L01,6.2uF,~,Inductor_SMD:L_Bourns-SRU1028_10.0x10.0mm,1,SRU1038-6R2Y,"6.2 µH Shielded Drum Core, Wirewound Inductor 4 A 16.5mOhm Nonstandard (n	 Current up to 7.2 A)"
+Q1,LM25085,~,Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm_ThermalVias,1,HVSSOP,Buck Regulator Positive Output Step-Down DC-DC Controller IC 8-HVSSOP
+R1,63k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,FRC0805F6342TS,125mW Thick Film Resistor 150V ±100ppm/? ±1% 63.4k? 0805 Chip Resistor - Surface Mount ROHS
+R2,1k4,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,FRC0805F1401TS,125mW Thick Film Resistor 150V ±100ppm/? ±1% 1.4k? 0805 Chip Resistor - Surface Mount ROHS
+R3,0R01,~,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,HoJLR1206-1W-10mR-1%,1W 10m? Surface Mount Current Sense Resistor ±1% 1206 Current Sense Resistors / Shunt Resistors ROHS
+R4,10k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,FRC0805J103TS,125mW Thick Film Resistor 150V ±100ppm/? ±5% 10k? 0805 Chip Resistor - Surface Mount ROHS
+R5,1k15,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,SCR0805F1K15,125mW Thick Film Resistor 150V ±100ppm/? ±1% 1.15k? 0805 Chip Resistor - Surface Mount ROHS
+U1,SQ3419AEEV,,Package_SO:TSOP-6_1.65x3.05mm_P0.95mm,1,VISHAY SQ3419AEEV-T1_GE3,"40V 6.9A 61m?@10V,2.5A 2.5V TSOP-6 MOSFETs ROHS"

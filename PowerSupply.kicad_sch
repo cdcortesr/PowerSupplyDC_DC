@@ -2036,6 +2036,24 @@
 				(justify left)
 			)
 		)
+		(property "LCSC Part #" "C2903499"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "HoJLR1206-1W-10mR-1%"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36096e2b-7f21-4cf5-9966-c6029fc3bfd1")
 		)
@@ -2163,6 +2181,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1518208 "
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "GRM155R61H105KE05D"
 			(at 113.03 72.39 0)
 			(effects
 				(font
@@ -2307,6 +2343,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2650243"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "LM25085MY/NOPB"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13292a60-2c49-47b7-9468-ebf1a36b7873")
 		)
@@ -2387,6 +2441,24 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C577270 "
+			(at 57.785 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "CC1210KKX7R0BB105"
+			(at 57.785 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f08ec721-c5b1-43fe-bf05-c6d847671e94")
 		)
@@ -2457,6 +2529,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2933483"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "FRC0805F6342TS"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcbe04c2-4c15-4a57-b5fa-e0d3a2346196")
 		)
@@ -2518,6 +2608,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C727535"
+			(at 96.52 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "SQ3419AEEV-T1_GE3"
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -2683,6 +2791,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2158829"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "TCJA106M025R0150E"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f276cfc-dbfb-4634-b2bb-05d394d9e1da")
 		)
@@ -2753,6 +2879,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C3016680"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "SCR0805F1K15"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1a98bfd-3310-4d52-8806-5ca3350da971")
 		)
@@ -2815,6 +2959,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2930231"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "FRC0805J103TS"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -2955,6 +3117,24 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C7084591"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "SRU1038-6R2Y"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b13d968-6669-42ab-a240-185dbcba8e01")
 		)
@@ -3015,6 +3195,24 @@
 		)
 		(property "Description" ""
 			(at 113.03 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2930161"
+			(at 113.03 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "FRC0805F1401TS"
+			(at 113.03 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,6 +3289,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C76947"
+			(at 112.395 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "GRM1555C1H102JA01D"
+			(at 112.395 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b49164a-f664-4416-9376-f85409d5563e")
 		)
@@ -3133,7 +3349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -3151,12 +3367,30 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STPS5L60"
+		(property "Description" "SK86C"
 			(at 128.778 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C64338"
+			(at 120.65 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part #" "SK86C"
+			(at 120.65 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
